@@ -390,17 +390,17 @@ font-family: 'Roboto';
 .container-comp{
     display: flex;
     gap: 120px;
-    align-items: flex-start;
+    align-items: baseline;
     
 }
 .smedia-text{
     width: 196px;
-    color: var(--light-color);
+    color: var(--white-color);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
@@ -408,13 +408,9 @@ font-family: 'Roboto';
     padding-top: 100px;
     align-items: baseline;
 }
-.socials{
-    gap: 16px;
-}
-.social-link:hover,
-.social-link:focus{
-background-color: #31d0aa;
-}
+
+
+
 .socials-icon{
   fill: var(--light-color);  
 }
@@ -506,6 +502,7 @@ border-top: none;
 }
 .customers{
 padding-top: 120px;
+padding-bottom: 120px;
 }
 .customers-container {
     margin: 82px, 156px, 120px, 156px;
@@ -543,7 +540,7 @@ padding-top: 120px;
     width: 168px;
     height: 88px;
     fill:var(--color-icon);
-
+    color:var(--color-icon);
     border: 1px solid var(--color-icon);
     border-radius: 4px;
 }
