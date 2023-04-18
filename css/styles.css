@@ -426,6 +426,7 @@ font-family: 'Roboto';
 }
 .footer-block{
 width: 264px;
+gap: 120px;
 
 }
 .filter {
