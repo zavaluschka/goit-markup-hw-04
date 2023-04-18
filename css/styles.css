@@ -329,7 +329,7 @@ text-align: center;
     text-align: center;
     margin-bottom: 15px;
 }
-.socials {
+.socials-team {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -353,8 +353,20 @@ text-align: center;
 .social-link:focus{
     background-color: #404bbf;
 }
-
-
+.social-link-footer{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: var(--logo-color);
+        border-radius: 50%;
+        fill: var(--light-color);
+}
+.social-link-footer:focus,
+.social-link-footer:hover{
+    background-color: #31d0aa;
+}
 .socials-icon {
 
 }
@@ -553,4 +565,8 @@ color: #404bbf;
 
 .client-icon {
 fill: currentColor;
+}
+.socials-footer{
+    display: flex;
+    gap: 16px;
 }
